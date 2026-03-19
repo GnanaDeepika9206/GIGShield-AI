@@ -25,6 +25,23 @@ GIGShield AI+ is an AI-based parametric insurance platform that provides income 
 6. The claim is automatically initiated without user intervention.
 7. Fraud checks are performed using location and activity validation.
 8. The payout is processed instantly using a simulated payment system.
+   
+## Prototype
+
+A simple frontend prototype is included to demonstrate the basic workflow of the system.
+
+Features:
+- Plan selection
+- Monitoring system
+- Claim trigger simulation
+
+## How to Run the Prototype
+
+1. Download or clone this repository
+2. Open the project folder
+3. Open the file `index.html` in any web browser
+
+No installation is required.
 
 ## Persona-Based Scenario
 
