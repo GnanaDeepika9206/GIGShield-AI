@@ -9,9 +9,15 @@
     <p>AI-powered income protection for delivery partners</p>
 
     <h2>Select Weekly Plan</h2>
-    <button>Lite - ₹20/week</button>
-    <button>Flex - ₹35/week</button>
-    <button>Pro - ₹50/week</button>
+<button onclick="selectPlan('Lite Plan Selected')">Lite - ₹20/week</button>
+<button onclick="selectPlan('Flex Plan Selected')">Flex - ₹35/week</button>
+<button onclick="selectPlan('Pro Plan Selected')">Pro - ₹50/week</button>
+
+<script>
+function selectPlan(message) {
+    alert(message);
+}
+</script>
 
     <h2>Current Status</h2>
     <p>Monitoring weather conditions...</p>
