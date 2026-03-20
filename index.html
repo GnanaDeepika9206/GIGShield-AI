@@ -9,23 +9,25 @@
     <p>AI-powered income protection for delivery partners</p>
 
     <h2>Select Weekly Plan</h2>
-<button onclick="selectPlan('Lite Plan Selected')">Lite - ₹20/week</button>
-<button onclick="selectPlan('Flex Plan Selected')">Flex - ₹35/week</button>
-<button onclick="selectPlan('Pro Plan Selected')">Pro - ₹50/week</button>
-
-<script>
-function selectPlan(message) {
-    alert(message);
-}
-</script>
+    <button onclick="selectPlan('Lite Plan Selected - ₹20/week')">Lite - ₹20/week</button>
+    <button onclick="selectPlan('Flex Plan Selected - ₹35/week')">Flex - ₹35/week</button>
+    <button onclick="selectPlan('Pro Plan Selected - ₹50/week')">Pro - ₹50/week</button>
 
     <h2>Current Status</h2>
     <p>Monitoring weather conditions...</p>
 
     <h2>Trigger Simulation</h2>
-    <button onclick="alert('Heavy Rain Detected! Claim Triggered. ₹300 Credited.')">
-        Simulate Rain Trigger
-    </button>
+    <button onclick="triggerClaim()">Simulate Rain Trigger</button>
+
+    <script>
+        function selectPlan(message) {
+            alert(message);
+        }
+
+        function triggerClaim() {
+            alert("Heavy Rain Detected! Claim Triggered. ₹300 Credited.");
+        }
+    </script>
 
 </body>
 </html>
